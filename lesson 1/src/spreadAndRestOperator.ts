@@ -1,7 +1,6 @@
 {
 
     // Spread operator
-    // destructuring
     // rest operator
 
     // learn spread operator
