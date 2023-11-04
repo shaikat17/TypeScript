@@ -20,7 +20,7 @@
 
         else if(typeof value === 'string') {
             const [newValue, unit] = value.split(' ')
-            const convertedSpeed = (newValue*1000)/3600
+            const convertedSpeed = (parseFloat(newValue)*1000)/3600
             console.log("🚀 ~ file: nullableTypes.ts:24 ~ getSpeedInMeterPerSecond ~ convertedSpeed:", convertedSpeed)
             
         } else {
